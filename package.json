@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"npm run dev --prefix agendaestudiantilbackend\" \"npm run dev --prefix agendaestudiantilfrontend\""
+    "dev": "concurrently \"npm run dev --prefix agendaestudiantilbackend\" \"npm run start --prefix agendaestudiantilfrontend\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
 }
